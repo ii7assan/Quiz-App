@@ -5,13 +5,11 @@
 </template>
 
 <script>
-import QuizStepper from './QuizStepper.vue';
+import QuizStepper from "./QuizStepper.vue";
 export default {
   components: { QuizStepper },
   data() {
     return {
-      radioGroup: 1,
-      e1: 1,
       questions: [
         {
           question: "what my age? ",
@@ -28,16 +26,14 @@ export default {
           answers: ["female", "male"],
           correctAnswer: "male",
         },
-         {
+        {
           question: "what my sex ",
           answers: ["female", "male"],
           correctAnswer: "male",
         },
       ],
-      score: 0,
     };
   },
-  
 };
 </script>
 
